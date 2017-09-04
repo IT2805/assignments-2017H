@@ -1,6 +1,6 @@
 # Assignment 1: HTML introduction
 
-In this assignment you will create a page for introducing yourself, with an image and everything (well not everything, only a text in addition to the image). In order to ensure that your HTML is valid, you should validate the HTML using a markup validator (https://validator.w3.org/#validate_by_input).
+In this assignment you will create a page for introducing yourself, with an image and everything (well not everything, only a text in addition to the image). In order to ensure that your HTML is valid, you should validate the HTML using a markup validator [W3 Validator](https://validator.w3.org/#validate_by_input).
 
 ## Part 1: Get Started
 Create a HTML file and name it ```about.html```.  This page will be a short introduction about you. Structure the document properly. Add the three elements `header`, `section`, and `footer`. In the header element, include an h1 heading element stating your name.
