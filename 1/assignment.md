@@ -5,6 +5,8 @@ In this assignment you will create a page for introducing yourself, with an imag
 ## Part 1: Get Started
 Create a HTML file and name it ```about.html```.  This page will be a short introduction about you. Structure the document properly. Add the three elements `header`, `section`, and `footer`. In the header element, include an h1 heading element stating your name.
 
+Note: a header element is not the same as the head element. You will need both to finish this assignment.
+
 In the section element, first include a new header element, then an image and three paragraphs below the header. The three paragraphs must contain some text about:
 * your coding skills, and
 * your expectations to the course, respectively.
