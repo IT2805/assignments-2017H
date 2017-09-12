@@ -20,15 +20,12 @@ If you want, you are allowed to style the visited and unvisited links in a simil
 
 ## Part 3: Styling the footer (25%)
 
+**Update september 12th 2017:**
+In this part we will also give full score if the footer sticks to the bottom of the browser window. If you want an extra challenge you can complete the task as described below.
+
 Use the provided file `list.html`. Even though our webpage does not have enough content to push the footer to the bottom, we would like it to be at the bottom. "Why?", you might ask. Because it looks silly when it is on the middle of the page.
 
-We have set up the HTML, you have to add the CSS. Add the correct attributes and values so that the footer always is at the bottom of the page. If there is enough content to fill the page, the footer must be pushed below the content, not being visible before the user scrolls down. This
-
-```css
-position: fixed;  
-bottom: 0px;
-```
-is not sufficient as this will fix the footer to the bottom of the browser window, ignoring the document flow.
+We have set up the HTML, you have to add the CSS. Add the correct attributes and values so that the footer always is at the bottom of the page. If there is enough content to fill the page, the footer must be pushed below the content, not being visible before the user scrolls down. 
 
 Hint: The wrapper must at least have the same height as the browser window, and the footer must be at the bottom of the wrapper. Test your code by adding some paragraphs with text.
 
