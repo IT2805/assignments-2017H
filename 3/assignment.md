@@ -47,6 +47,7 @@ Inside `list.html`, below your header, create an unordered list with the same co
     * Babel
 
 Use CSS, included as an external stylesheet, to style the list in the following way:
+
 * Change the bullets into squares.
 * Use ```pseudo-selectors``` to style the last element of a sublist differently than the other list elements. E.g., 'SCSS' and 'Babel' could have a different font color.  
 
