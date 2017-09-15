@@ -1,6 +1,6 @@
 # Assignment 2: HTML continued, links and CSS introduction
 
-Note: If you have not completed assignment 1, go ahead and do it now, as you need it for this assignment. You do not have to submit the code for assignment 1. Your code for assignment 1 will not be graded. In order to ensure that your HTML is valid, you should validate the HTML using a markup validator [W3 Validator](https://validator.w3.org/#validate_by_input).
+Note: If you have not completed assignment 1, go ahead and do it now, as you need it for this assignment. You do not have to submit the code for assignment 1. Your code for assignment 1 will not be graded. In order to ensure that your HTML is valid, you should validate the HTML using a markup validator (https://validator.w3.org/#validate_by_input).
 
 In this assignment you are going to style the website you created in the previous exercise.
 
@@ -25,7 +25,7 @@ The directory structure of your website will now look like the following.
 ## Part 2: Update (10%)
 Now that your website directory structure is sorted out it is time to update your website.
 
-Update the ```ìmg``` element to point to the new location of the image of you.
+Update the `img` element to point to the new location of the image of you.
 
 Include the empty ````style.css```` file inside the ````head```` element of your ````about.html```` file.
 
