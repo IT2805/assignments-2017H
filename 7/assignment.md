@@ -21,22 +21,22 @@ Now you will start to implement some functionality.
 When the user writes a task in the input field and clicks the add button, the task shall be added to the empty list with a checkbox in front of it. Make a JavaScript function named "addTask()" that does this. Place the newest task on the top of the list.
 
 Hint: Use eventlisteners to listen on button clicks.  
-Hinter: If you want to remove the list bullet, you can do so using CSS.  
+Hinter: You can remove the list bullet using CSS if you wish to do so.  
 Hintest: Use `preventDefault()` so that the page does not reload itself if you use a form.
 
 ## Part 3: Storing Users' Activities (20%)
 Instead of simply showing the tasks in the DOM, we also want to store them as an object.
 
-Create an empty list in `todo.js` called `tasks`. Then expand your function "addTask()" so that it adds a task object to the list. The object should consist of the attributes:
-* timestamp
-* task
+Create an empty list in `todo.js` called `tasks`. Then expand your function "addTask()" so that it adds a task object to the list.
 
-The timestamp could be the number of milliseconds between 1 January 1970 00:00:00 UTC and now (i.e. use the JavaScript Date object), or any other unique identifier using the Date object. The task should be a string.
+The object should consist of at least one attribute to represent the text of the todo as a string.
+
+You can also add a timestamp attribute representing when the todo was added. In that case the timestamp could be the number of milliseconds between 1 January 1970 00:00:00 UTC and now (i.e. use the JavaScript Date object), or any other unique identifier using the Date object.
 
 You can check that this works by using console.log on the list 'tasks'.
 
 ## Part 4: Adding more Functionalities (25%)
-Part 4 should be completed using CSS.
+**Note:** Part 4 can be completed using CSS, but you can also stick to only using JavaScript.
 
 If the user checks the checkbox, the following should happen:
 * the task should have a line through it
