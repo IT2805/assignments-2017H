@@ -7,7 +7,7 @@ This exercise will give you a feel for how to iterate over an array of objects i
 
 In ````income-greather-than-500k.html```` you will find an array of tax forms assigned to the variable called ````taxForms````.  
 
-In its current state the entire array is logged to the console. You need to change the Javascript such that the array is iterated and **only the real name** of the superheroes that have an income greater than 500 000 are logged with ````console.log````.
+In its current state the entire array is logged to the console. You need to change the Javascript in ````income-greather-than-500k.html```` such that the array is iterated and **only the real name** of the superheroes that have an income greater than 500 000 are logged with ````console.log````.
 
 ## Part 2: Create lines with Canvas (25%)
 Although ````console.log```` is practical for debugging, it is not very helpful when you want to visualize data. Luckily HTML5 let's us programmatically generate images directly in the browser. In this exercise you are going to programmatically recreate the image below using the Canvas element and its methods.
